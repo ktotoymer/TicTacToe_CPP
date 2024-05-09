@@ -1,6 +1,10 @@
 #include <iostream>
+#include "TicTacToe.h"
 
-int main(){
-  std::cout << "Hello, world!" << std::endl;
-  return 0;
+using std::TicTacToe
+
+int main() {
+    TicTacToe game;
+    game.playGame();
+    return 0;
 }
